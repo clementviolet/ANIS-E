@@ -127,7 +127,6 @@ server <- function(input, output, session){
       "Algaebase taxonomic ID", "Algaebase unique taxon identifier",
       "Year", "The four-digit year in which the dwc:Event occurred, according to the Common Era Calendar",
       "Country", "The name of the country or major administrative unit in which the dcterms:Location occurs",
-      "nativeEurope", "Indicates whether the taxon’s native range includes one or more of the European marine ecoregions defined by Spalding et al., namely Adriatic, Aegean Sea, Alboran Sea, Azores Canaries Madeira, Baltic Sea, Black Sea, Celtic Seas, Faroe Plateau, Ionian Sea, Levantine Sea, North and East Iceland, North Sea, Northern Norway and Finnmark, South and West Iceland, South European Atlantic Shelf, Southern Norway, Tunisian Plateau/Gulf of Sidra, and Western Mediterranean.",
       "Establishmentmeans", "Statement about whether an organism has been introduced to a given place and time through the direct or indirect activity of modern humans",
       "Occurrenceremarks", "Comments or notes about the occurrence"
     )
@@ -156,6 +155,7 @@ server <- function(input, output, session){
       "PROV_CODE", "Code of the Province",
       "ECOREGION", "Ecoregion name",
       "ECO_CODE_X", "Code of the Ecoregion in a short format",
+      "nativeEurope", "Indicates whether the taxon’s native range includes one or more of the European marine ecoregions defined by Spalding et al., namely Adriatic, Aegean Sea, Alboran Sea, Azores Canaries Madeira, Baltic Sea, Black Sea, Celtic Seas, Faroe Plateau, Ionian Sea, Levantine Sea, North and East Iceland, North Sea, Northern Norway and Finnmark, South and West Iceland, South European Atlantic Shelf, Southern Norway, Tunisian Plateau/Gulf of Sidra, and Western Mediterranean.",
       "References", "A related resource that is referenced, cited, or otherwise pointed to by the described resource"
     )
   })

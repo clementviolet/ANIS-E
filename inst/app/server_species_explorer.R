@@ -672,7 +672,7 @@ speciesExplorerServer <- function(id, meow) {
           REALM, RLM_CODE, 
           PROVINCE, PROV_CODE, 
           ECOREGION, ECO_CODE_X,
-          references
+          nativeEurope, references
         ) %>%
         dplyr::rename(
           Kingdom = kingdom,
