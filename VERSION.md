@@ -1,10 +1,10 @@
 # ANIS-E version
 
-Current version: **v1.1.0**
+Current version: **v1.1.1**
 
 Release date: **2026-05-05**
 
-Previous version: **v1.0.1**
+Previous version: **v1.1.0**
 
 Version type: **MINOR**
 
@@ -17,6 +17,10 @@ ANIS-E follows semantic dataset versioning:
 - **PATCH**: corrections to existing data, metadata, or documentation without changing the schema
 
 ## Current release summary
+
+## V 1.1.1
+
+Fix a bug preventing the downloading of the 'nativeRange' column from the "Native Range" table in Species explorer panel. No change to the DB has occurred.
 
 ## V 1.1.0
 
